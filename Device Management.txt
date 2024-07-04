@@ -1,0 +1,482 @@
+--List---
+1. Verify that the "Ma Thiet bi" column contains the values 1001, 1002, 1003, and 1004.
+   - Step 1: Locate the "Ma Thiet bi" column in the table.
+   - Step 2: Confirm that each row contains one of the following values: 1001, 1002, 1003, or 1004.
+   - Step 3: Verify that there are no other values in the "Ma Thiet bi" column.
+
+2. Verify that the "Phong ID" column contains the value 1001 for all rows.
+   - Step 1: Locate the "Phong ID" column in the table.
+   - Step 2: Confirm that the value in each row is 1001.
+   - Step 3: Verify that there are no other values in the "Phong ID" column.
+
+3. Verify that the "Ten thiet bi" column contains the values "Tu lanh mini", "Giuong", "Dieu hoa", and "Binh nong lanh".
+   - Step 1: Locate the "Ten thiet bi" column in the table.
+   - Step 2: Confirm that each row contains one of the following values: "Tu lanh mini", "Giuong", "Dieu hoa", or "Binh nong lanh".
+   - Step 3: Verify that there are no other values in the "Ten thiet bi" column.
+
+4. Verify that the "So luong" column contains the value 1 for all rows.
+   - Step 1: Locate the "So luong" column in the table.
+   - Step 2: Confirm that the value in each row is 1.
+   - Step 3: Verify that there are no other values in the "So luong" column.
+
+5. Verify that the "Tinh trang" column contains the values "Bao tri", "Tot", "Tot", and "Tot".
+   - Step 1: Locate the "Tinh trang" column in the table.
+   - Step 2: Confirm that each row contains one of the following values: "Bao tri", "Tot", "Tot", or "Tot".
+   - Step 3: Verify that there are no other values in the "Tinh trang" column.
+
+6. Verify that the "Gia" column contains the values 250000, 200000, 300000, and 200000.
+   - Step 1: Locate the "Gia" column in the table.
+   - Step 2: Confirm that each row contains one of the following values: 250000, 200000, 300000, or 200000.
+   - Step 3: Verify that there are no other values in the "Gia" column.
+
+7. Verify that the "Thao tac" column contains the values "Sua", "Sua Xoa", "Sua Xoa", and "Sua Xoa".
+   - Step 1: Locate the "Thao tac" column in the table.
+   - Step 2: Confirm that each row contains one of the following values: "Sua", "Sua Xoa", "Sua Xoa", or "Sua Xoa".
+   - Step 3: Verify that there are no other values in the "Thao tac" column.
+
+8. Verify that the table displays all 4 rows of data.
+   - Step 1: Count the number of rows in the table.
+   - Step 2: Confirm that there are 4 rows of data displayed.
+
+9. Verify that the "Ma Thiet bi" column is unique for each row.
+   - Step 1: Locate the "Ma Thiet bi" column in the table.
+   - Step 2: Confirm that each value in the "Ma Thiet bi" column is unique.
+   - Step 3: Verify that there are no duplicate values in the "Ma Thiet bi" column.
+
+10. Verify that the "Phong ID" column is the same for all rows.
+    - Step 1: Locate the "Phong ID" column in the table.
+    - Step 2: Confirm that the value in each row is 1001.
+    - Step 3: Verify that there are no other values in the "Phong ID" column.
+
+11. Verify that the "Ten thiet bi" column contains only valid values.
+    - Step 1: Locate the "Ten thiet bi" column in the table.
+    - Step 2: Confirm that each value in the column is one of the following: "Tu lanh mini", "Giuong", "Dieu hoa", or "Binh nong lanh".
+    - Step 3: Verify that there are no invalid values in the "Ten thiet bi" column.
+
+12. Verify that the "So luong" column contains only positive integers.
+    - Step 1: Locate the "So luong" column in the table.
+    - Step 2: Confirm that the value in each row is 1.
+    - Step 3: Verify that there are no negative or non-integer values in the "So luong" column.
+
+13. Verify that the "Tinh trang" column contains only valid values.
+    - Step 1: Locate the "Tinh trang" column in the table.
+    - Step 2: Confirm that each value in the column is one of the following: "Bao tri", "Tot".
+    - Step 3: Verify that there are no invalid values in the "Tinh trang" column.
+
+14. Verify that the "Gia" column contains only positive integers.
+    - Step 1: Locate the "Gia" column in the table.
+    - Step 2: Confirm that each value in the column is a positive integer.
+    - Step 3: Verify that there are no negative or non-integer values in the "Gia" column.
+
+15. Verify that the "Thao tac" column contains only valid values.
+    - Step 1: Locate the "Thao tac" column in the table.
+    - Step 2: Confirm that each value in the column is one of the following: "Sua", "Sua Xoa".
+    - Step 3: Verify that there are no invalid values in the "Thao tac" column.
+
+16. Verify that the table is sorted by "Ma Thiet bi" in ascending order.
+    - Step 1: Locate the "Ma Thiet bi" column in the table.
+    - Step 2: Confirm that the values are in ascending order (1001, 1002, 1003, 1004).
+    - Step 3: Verify that the table is sorted correctly by "Ma Thiet bi".
+
+17. Verify that the table can be sorted by any column.
+    - Step 1: Locate the column headers in the table.
+    - Step 2: Try sorting the table by each column in both ascending and descending order.
+    - Step 3: Verify that the table can be sorted correctly by any column.
+
+18. Verify that the table can be filtered by any column.
+    - Step 1: Locate the column headers in the table.
+    - Step 2: Try filtering the table by each column using various criteria.
+    - Step 3: Verify that the table can be filtered correctly by any column.
+
+19. Verify that the table can be searched by any column.
+    - Step 1: Locate the column headers in the table.
+    - Step 2: Try searching the table by entering values in each column.
+    - Step 3: Verify that the table can be searched correctly by any column.
+
+20. Verify that the table can be exported to a file.
+    - Step 1: Locate the export function or option in the table.
+    - Step 2: Export the table data to a file (e.g., CSV, Excel, PDF).
+    - Step 3: Verify that the exported file contains the correct data.
+
+21. Verify that the table can be printed.
+    - Step 1: Locate the print function or option in the table.
+    - Step 2: Print the table.
+    - Step 3: Verify that the printed output matches the table data.
+
+22. Verify that the table can be edited.
+    - Step 1: Locate the editing function or option in the table.
+    - Step 2: Make changes to the data in the table.
+    - Step 3: Verify that the changes are saved and reflected in the table.
+
+23. Verify that the table can be deleted.
+    - Step 1: Locate the delete function or option in the table.
+    - Step 2: Delete the table.
+    - Step 3: Confirm that the table is no longer visible.
+
+24. Verify that the table can be duplicated.
+    - Step 1: Locate the duplicate function or option in the table.
+    - Step 2: Duplicate the table.
+    - Step 3: Confirm that the duplicated table is identical to the original.
+
+25. Verify that the table can be shared with other users.
+    - Step 1: Locate the share function or option in the table.
+    - Step 2: Share the table with other users.
+    - Step 3: Confirm that the shared users can access and view the table.
+
+26. Verify that the table can be archived.
+    - Step 1: Locate the archive function or option in the table.
+    - Step 2: Archive the table.
+    - Step 3: Confirm that the table is no longer visible in the main view.
+
+27. Verify that the table can be restored from the archive.
+    - Step 1: Locate the archived table.
+    - Step 2: Restore the table from the archive.
+    - Step 3: Confirm that the restored table is identical to the original.
+
+28. Verify that the table can be backed up.
+    - Step 1: Locate the backup function or option in the table.
+    - Step 2: Back up the table.
+    - Step 3: Confirm that the backup file contains the correct data.
+
+29. Verify that the table can be restored from a backup.
+    - Step 1: Locate the restore function or option in the table.
+    - Step 2: Restore the table from a backup.
+    - Step 3: Confirm that the restored table is identical to the original.
+
+30. Verify that the table can be locked for editing.
+    - Step 1: Locate the lock function or option in the table.
+    - Step 2: Lock the table for editing.
+    - Step 3: Confirm that the table can only be edited by authorized users.
+
+31. Verify that the table can be unlocked for editing.
+    - Step 1: Locate the unlock function or option in the table.
+    - Step 2: Unlock the table for editing.
+    - Step 3: Confirm that the table can now be edited by all users.
+
+32. Verify that the table can be versioned.
+    - Step 1: Locate the version control function or option in the table.
+    - Step 2: Create multiple versions of the table.
+    - Step 3: Confirm that the version history is correctly displayed and accessible.
+
+33. Verify that the table can be compared to previous versions.
+    - Step 1: Locate the version comparison function or option in the table.
+    - Step 2: Compare the current version of the table to a previous version.
+    - Step 3: Confirm that the differences between the versions are correctly displayed.
+
+34. Verify that the table can be commented on.
+    - Step 1: Locate the commenting function or option in the table.
+    - Step 2: Add comments to the table.
+    - Step 3: Confirm that the comments are correctly displayed and associated with the table.
+
+35. Verify that the table can be assigned to a specific user or team.
+    - Step 1: Locate the assignment function or option in the table.
+    - Step 2: Assign the table to a user or team.
+    - Step 3: Confirm that the assignment is correctly displayed and the table is accessible to the assigned user or team.
+
+36. Verify that the table can be associated with a specific project or workflow.
+    - Step 1: Locate the project/workflow association function or option in the table.
+    - Step 2: Associate the table with a project or workflow.
+    - Step 3: Confirm that the association is correctly displayed and the table is accessible within the associated project or workflow.
+
+37. Verify that the table can be categorized or tagged.
+    - Step 1: Locate the categorization or tagging function or option in the table.
+    - Step 2: Categorize or tag the table.
+    - Step 3: Confirm that the categories or tags are correctly displayed and the table can be filtered or searched by them.
+
+38. Verify that the table can be set to have a specific privacy or sharing level.
+    - Step 1: Locate the privacy or sharing setting function or option in the table.
+    - Step 2: Set the privacy or sharing level for the table.
+    - Step 3: Confirm that the table is accessible only to the intended users based on the set privacy or sharing level.
+
+39. Verify that the table can be set to have a specific expiration or retention policy.
+    - Step 1: Locate the expiration or retention setting function or option in the table.
+    - Step 2: Set the expiration or retention policy for the table.
+    - Step 3: Confirm that the table is automatically archived, deleted, or retained according to the set policy.
+
+40. Verify that the table can be set to have a specific notification or alert policy.
+    - Step 1: Locate the notification or alert setting function or option in the table.
+    - Step 2: Set the notification or alert policy for the table.
+    - Step 3: Confirm that the appropriate notifications or alerts are generated based on the set policy.
+
+41. Verify that the table can be integrated with other systems or APIs.
+    - Step 1: Locate the integration function or option in the table.
+    - Step 2: Integrate the table with another system or API.
+    - Step 3: Confirm that the table data can be accessed and synchronized with the integrated system.
+
+42. Verify that the table can be customized with additional fields or columns.
+    - Step 1: Locate the customization function or option in the table.
+    - Step 2: Add new fields or columns to the table.
+    - Step 3: Confirm that the customized table displays the new fields or columns correctly.
+
+43. Verify that the table can be customized with specific layouts or views.
+    - Step 1: Locate the layout or view customization function or option in the table.
+    - Step 2: Customize the layout or view of the table.
+    - Step 3: Confirm that the customized layout or view is correctly displayed.
+
+44. Verify that the table can be customized with specific formatting or styling.
+    - Step 1: Locate the formatting or styling function or option in the table.
+    - Step 2: Apply custom formatting or styling to the table.
+    - Step 3: Confirm that the customized formatting or styling is correctly displayed.
+
+45. Verify that the table can be customized with specific calculations or formulas.
+    - Step 1: Locate the calculation or formula function or option in the table.
+    - Step 2: Add custom calculations or formulas to the table.
+    - Step 3: Confirm that the calculated or formula-based values are correctly displayed.
+
+46. Verify that the table can be customized with specific validation or business rules.
+    - Step 1: Locate the validation or business rule function or option in the table.
+    - Step 2: Add custom validation or business rules to the table.
+    - Step 3: Confirm that the validation or business rules are correctly applied and enforced.
+
+47. Verify that the table can be customized with specific access control or permissions.
+    - Step 1: Locate the access control or permission function or option in the table.
+    - Step 2: Customize the access control or permissions for the table.
+    - Step 3: Confirm that the customized access control or permissions are correctly enforced.
+
+48. Verify that the table can be customized with specific workflow or automation features.
+    - Step 1: Locate the workflow or automation function or option in the table.
+    - Step 2: Customize the workflow or automation for the table.
+    - Step 3: Confirm that the customized workflow or automation is correctly implemented and functioning as expected.
+
+49. Verify that the table can be customized with specific reporting or analytics features.
+    - Step 1: Locate the reporting or analytics function or option in the table.
+    - Step 2: Customize the reporting or analytics for the table.
+    - Step 3: Confirm that the customized reporting or analytics are correctly implemented and provide the expected insights.
+
+50. Verify that the table can be customized with specific mobile or responsive design features.
+    - Step 1: Locate the mobile or responsive design function or option in the table.
+    - Step 2: Customize the mobile or responsive design for the table.
+
+---ADD---
+
+Sure, here are the detailed 30 test cases for the "Them thiet bi" form:
+
+1. Verify that the "Chi tiet" field is displayed correctly:
+   - Step 1: Navigate to the "Them thiet bi" form.
+   - Step 2: Verify that the "Chi tiet" field is present and displayed correctly.
+
+2. Verify that the "Ma thiet bi" field is displayed correctly:
+   - Step 1: Navigate to the "Them thiet bi" form.
+   - Step 2: Verify that the "Ma thiet bi" field is present and displayed correctly.
+
+3. Verify that the "Ma phong" field is displayed correctly:
+   - Step 1: Navigate to the "Them thiet bi" form.
+   - Step 2: Verify that the "Ma phong" field is present and displayed correctly.
+
+4. Verify that the "Ten" field is displayed correctly:
+   - Step 1: Navigate to the "Them thiet bi" form.
+   - Step 2: Verify that the "Ten" field is present and displayed correctly.
+
+5. Verify that the "So luong" field is displayed correctly:
+   - Step 1: Navigate to the "Them thiet bi" form.
+   - Step 2: Verify that the "So luong" field is present and displayed correctly.
+
+6. Verify that the "Tinh trang" dropdown is displayed correctly:
+   - Step 1: Navigate to the "Them thiet bi" form.
+   - Step 2: Verify that the "Tinh trang" dropdown is present and displayed correctly.
+
+7. Verify that the "Gia" field is displayed correctly:
+   - Step 1: Navigate to the "Them thiet bi" form.
+   - Step 2: Verify that the "Gia" field is present and displayed correctly.
+
+8. Verify that the "Them" button is displayed correctly:
+   - Step 1: Navigate to the "Them thiet bi" form.
+   - Step 2: Verify that the "Them" button is present and displayed correctly.
+
+9. Verify that the "Quay ve" button is displayed correctly:
+   - Step 1: Navigate to the "Them thiet bi" form.
+   - Step 2: Verify that the "Quay ve" button is present and displayed correctly.
+
+10. Verify that the user can enter a valid value in the "Ma thiet bi" field:
+    - Step 1: Navigate to the "Them thiet bi" form.
+    - Step 2: Enter a valid value in the "Ma thiet bi" field.
+    - Step 3: Verify that the value is accepted and displayed correctly.
+
+11. Verify that the user can enter a valid value in the "Ma phong" field:
+    - Step 1: Navigate to the "Them thiet bi" form.
+    - Step 2: Enter a valid value in the "Ma phong" field.
+    - Step 3: Verify that the value is accepted and displayed correctly.
+
+12. Verify that the user can enter a valid value in the "Ten" field:
+    - Step 1: Navigate to the "Them thiet bi" form.
+    - Step 2: Enter a valid value in the "Ten" field.
+    - Step 3: Verify that the value is accepted and displayed correctly.
+
+13. Verify that the user can enter a valid value in the "So luong" field:
+    - Step 1: Navigate to the "Them thiet bi" form.
+    - Step 2: Enter a valid value in the "So luong" field.
+    - Step 3: Verify that the value is accepted and displayed correctly.
+
+14. Verify that the user can select a valid value from the "Tinh trang" dropdown:
+    - Step 1: Navigate to the "Them thiet bi" form.
+    - Step 2: Select a valid value from the "Tinh trang" dropdown.
+    - Step 3: Verify that the selected value is displayed correctly.
+
+15. Verify that the user can enter a valid value in the "Gia" field:
+    - Step 1: Navigate to the "Them thiet bi" form.
+    - Step 2: Enter a valid value in the "Gia" field.
+    - Step 3: Verify that the value is accepted and displayed correctly.
+
+16. Verify that the user can click the "Them" button to save the form:
+    - Step 1: Navigate to the "Them thiet bi" form.
+    - Step 2: Fill in all the required fields with valid data.
+    - Step 3: Click the "Them" button.
+    - Step 4: Verify that the form is saved and the user is navigated to the appropriate page.
+
+17. Verify that the user can click the "Quay ve" button to navigate away from the form:
+    - Step 1: Navigate to the "Them thiet bi" form.
+    - Step 2: Click the "Quay ve" button.
+    - Step 3: Verify that the user is navigated away from the form to the expected page.
+
+18. Verify that the form cannot be submitted with an empty "Ma thiet bi" field:
+    - Step 1: Navigate to the "Them thiet bi" form.
+    - Step 2: Leave the "Ma thiet bi" field empty.
+    - Step 3: Click the "Them" button.
+    - Step 4: Verify that the form cannot be submitted and an appropriate error message is displayed.
+
+19. Verify that the form cannot be submitted with an empty "Ma phong" field:
+    - Step 1: Navigate to the "Them thiet bi" form.
+    - Step 2: Leave the "Ma phong" field empty.
+    - Step 3: Click the "Them" button.
+    - Step 4: Verify that the form cannot be submitted and an appropriate error message is displayed.
+
+20. Verify that the form cannot be submitted with an empty "Ten" field:
+    - Step 1: Navigate to the "Them thiet bi" form.
+    - Step 2: Leave the "Ten" field empty.
+    - Step 3: Click the "Them" button.
+    - Step 4: Verify that the form cannot be submitted and an appropriate error message is displayed.
+
+21. Verify that the form cannot be submitted with a negative value in the "So luong" field:
+    - Step 1: Navigate to the "Them thiet bi" form.
+    - Step 2: Enter a negative value in the "So luong" field.
+    - Step 3: Click the "Them" button.
+    - Step 4: Verify that the form cannot be submitted and an appropriate error message is displayed.
+
+22. Verify that the form cannot be submitted with a non-numeric value in the "Gia" field:
+    - Step 1: Navigate to the "Them thiet bi" form.
+    - Step 2: Enter a non-numeric value in the "Gia" field.
+    - Step 3: Click the "Them" button.
+    - Step 4: Verify that the form cannot be submitted and an appropriate error message is displayed.
+
+23. Verify that the form cannot be submitted with an invalid value in the "Tinh trang" dropdown:
+    - Step 1: Navigate to the "Them thiet bi" form.
+    - Step 2: Select an invalid value from the "Tinh trang" dropdown.
+    - Step 3: Click the "Them" button.
+    - Step 4: Verify that the form cannot be submitted and an appropriate error message is displayed.
+
+24. Verify that the form can be submitted with valid data in all fields:
+    - Step 1: Navigate to the "Them thiet bi" form.
+    - Step 2: Fill in all the required fields with valid data.
+    - Step 3: Click the "Them" button.
+    - Step 4: Verify that the form is submitted successfully and the user is navigated to the appropriate page.
+
+25. Verify that the form can be submitted with the minimum required data (only "Ma thiet bi" and "Ma phong"):
+    - Step 1: Navigate to the "Them thiet bi" form.
+    - Step 2: Fill in only the "Ma thiet bi" and "Ma phong" fields with valid data.
+    - Step 3: Click the "Them" button.
+    - Step 4: Verify that the form is submitted successfully and the user is navigated to the appropriate page.
+
+---Edit---
+
+Certainly, here are the 40 test cases written in more detail:
+
+1. Verify that the "Mã Thiết Bị" field accepts valid input (e.g., 1001).
+   - Input a valid value, such as "1001", and ensure the form accepts it without any errors.
+   - Try inputting invalid values, such as letters or special characters, and verify that the form displays an error message.
+
+2. Verify that the "Mã Phòng" field accepts valid input (e.g., 1001).
+   - Input a valid value, such as "1001", and ensure the form accepts it without any errors.
+   - Try inputting invalid values, such as letters or special characters, and verify that the form displays an error message.
+
+3. Verify that the "Tên" field accepts valid input (e.g., "Tủ lạnh mini").
+   - Input a valid value, such as "Tủ lạnh mini", and ensure the form accepts it without any errors.
+   - Try inputting invalid values, such as special characters or exceeding the maximum character limit, and verify that the form displays an error message.
+
+4. Verify that the "Số Lượng" field accepts valid numeric input (e.g., 1).
+   - Input a valid numeric value, such as "1", and ensure the form accepts it without any errors.
+   - Try inputting invalid values, such as letters or special characters, and verify that the form displays an error message.
+
+5. Verify that the "Tình Trạng" dropdown list displays the correct options.
+   - Ensure that the dropdown list displays the expected options, such as "Bảo trì", "Sửa chữa", "Mới", etc.
+
+6. Verify that the "Tình Trạng" dropdown list allows the user to select an option.
+   - Click on the dropdown list and select an option, then verify that the selected option is displayed correctly.
+
+7. Verify that the "Giá" field accepts valid numeric input (e.g., 250000).
+   - Input a valid numeric value, such as "250000", and ensure the form accepts it without any errors.
+   - Try inputting invalid values, such as letters or special characters, and verify that the form displays an error message.
+
+8. Verify that the "Lưu" button saves the changes made to the form.
+   - Fill out the form with valid data, then click the "Lưu" button and verify that the changes are successfully saved.
+
+9. Verify that the "Quay về" button navigates the user back to the previous page.
+   - Click the "Quay về" button and ensure that the user is redirected to the expected previous page.
+
+10. Verify that the form cannot be submitted with any required field left empty.
+    - Try to submit the form without filling out one or more required fields, and ensure that the form displays an error message and does not allow the submission.
+
+11. Verify that the form cannot be submitted with invalid input in any field.
+    - Fill out the form with invalid data, such as letters in numeric fields or exceeding character limits, and try to submit the form. Ensure that the form displays an error message and does not allow the submission.
+
+12. Verify that the "Mã Thiết Bị" field cannot be modified.
+    - Ensure that the "Mã Thiết Bị" field is read-only and cannot be edited by the user.
+
+13. Verify that the "Mã Phòng" field cannot be modified.
+    - Ensure that the "Mã Phòng" field is read-only and cannot be edited by the user.
+
+14. Verify that the "Tên" field has a maximum character limit.
+    - Try to input a value that exceeds the maximum character limit for the "Tên" field, and ensure that the form displays an error message and prevents the submission.
+
+15. Verify that the "Số Lượng" field only accepts positive integers.
+    - Input negative values, zero, and non-integer values in the "Số Lượng" field, and ensure that the form displays an error message and prevents the submission.
+
+16. Verify that the "Giá" field only accepts positive numeric values.
+    - Input negative values, zero, and non-numeric values in the "Giá" field, and ensure that the form displays an error message and prevents the submission.
+
+17. Verify that the "Tình Trạng" dropdown list allows the user to select multiple options.
+    - Ensure that the "Tình Trạng" dropdown list allows the user to select multiple options, and that the selected options are displayed correctly.
+
+18. Verify that the "Lưu" button is disabled until all required fields are filled out.
+    - Ensure that the "Lưu" button is disabled until all required fields are filled out, and that it becomes enabled once all required fields have valid input.
+
+19. Verify that the "Quay về" button is always enabled.
+    - Ensure that the "Quay về" button is always enabled, regardless of the state of the form.
+
+20. Verify that the form displays an error message when the "Lưu" button is clicked with any required field left empty.
+    - Leave one or more required fields empty, then click the "Lưu" button, and ensure that the form displays an appropriate error message.
+
+21. Verify that the form displays an error message when the "Lưu" button is clicked with invalid input in any field.
+    - Fill out the form with invalid data, then click the "Lưu" button, and ensure that the form displays an appropriate error message.
+
+22. Verify that the form displays a success message when the "Lưu" button is clicked with valid input.
+    - Fill out the form with valid data, then click the "Lưu" button, and ensure that the form displays a success message.
+
+23. Verify that the form displays the previously saved values when the page is loaded.
+    - Ensure that when the form is loaded, it displays the previously saved values for each field.
+
+24. Verify that the form cannot be submitted with a negative value in the "Số Lượng" field.
+    - Input a negative value in the "Số Lượng" field, then try to submit the form, and ensure that an error message is displayed.
+
+25. Verify that the form cannot be submitted with a negative value in the "Giá" field.
+    - Input a negative value in the "Giá" field, then try to submit the form, and ensure that an error message is displayed.
+
+26. Verify that the form cannot be submitted with a value of 0 in the "Số Lượng" field.
+    - Input a value of 0 in the "Số Lượng" field, then try to submit the form, and ensure that an error message is displayed.
+
+27. Verify that the form cannot be submitted with a value of 0 in the "Giá" field.
+    - Input a value of 0 in the "Giá" field, then try to submit the form, and ensure that an error message is displayed.
+
+28. Verify that the form cannot be submitted with a value greater than the maximum allowed in the "Số Lượng" field.
+    - Input a value greater than the maximum allowed in the "Số Lượng" field, then try to submit the form, and ensure that an error message is displayed.
+
+29. Verify that the form cannot be submitted with a value greater than the maximum allowed in the "Giá" field.
+    - Input a value greater than the maximum allowed in the "Giá" field, then try to submit the form, and ensure that an error message is displayed.
+
+30. Verify that the form displays a warning message when the "Số Lượng" or "Giá" field value is approaching the maximum allowed.
+    - Input values that are close to the maximum allowed in the "Số Lượng" and "Giá" fields, and ensure that the form displays a warning message.
+
+31. Verify that the form displays a success message when the "Lưu" button is clicked and the changes are successfully saved.
+    - Fill out the form with valid data, click the "Lưu" button, and ensure that the form displays a success message.
+
+32. Verify that the form displays an error message when the "Lưu" button is clicked and the changes cannot be saved due to a server-side error.
+    - Simulate a server-side error by modifying the server response, click the "Lưu" button, and ensure that the form displays an appropriate error message.

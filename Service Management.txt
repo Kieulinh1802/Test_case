@@ -1,0 +1,596 @@
+---Edit---
+
+Test Case 1: Verify that the "Ma dich vu" (Service ID) field can accept a numeric value.
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter a numeric value in the "Ma dich vu" field.
+3. Verify that the value is accepted and saved correctly.
+
+Test Case 2: Verify that the "So phong ID" (Room ID) field can accept a numeric value.
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter a numeric value in the "So phong ID" field.
+3. Verify that the value is accepted and saved correctly.
+
+Test Case 3: Verify that the "Nuoc" (Water) field can accept a text value.
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter a text value in the "Nuoc" field.
+3. Verify that the value is accepted and saved correctly.
+
+Test Case 4: Verify that the "Gia tien" (Price) field can accept a numeric value.
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter a numeric value in the "Gia tien" field.
+3. Verify that the value is accepted and saved correctly.
+
+Test Case 5: Verify that the "Tu ngay" (From Date) field can accept a valid date format (e.g., 01/01/2024).
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter a valid date format (e.g., 01/01/2024) in the "Tu ngay" field.
+3. Verify that the value is accepted and saved correctly.
+
+Test Case 6: Verify that the "Den ngay" (To Date) field can accept a valid date format (e.g., 01/31/2024).
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter a valid date format (e.g., 01/31/2024) in the "Den ngay" field.
+3. Verify that the value is accepted and saved correctly.
+
+Test Case 7: Verify that the "Chi so cu" (Old Reading) field can accept a numeric value.
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter a numeric value in the "Chi so cu" field.
+3. Verify that the value is accepted and saved correctly.
+
+Test Case 8: Verify that the "Chi so moi" (New Reading) field can accept a numeric value.
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter a numeric value in the "Chi so moi" field.
+3. Verify that the value is accepted and saved correctly.
+
+Test Case 9: Verify that the "Luu" (Save) button saves the form data correctly.
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter valid data in all the required fields.
+3. Click the "Luu" button.
+4. Verify that the form data is saved correctly.
+
+Test Case 10: Verify that the "Quay ve" (Back) button navigates the user back to the previous page.
+1. Access the "Sửa Dịch Vụ" form.
+2. Click the "Quay ve" button.
+3. Verify that the user is navigated back to the previous page.
+
+Test Case 11: Verify that the form cannot be submitted with any required field left empty.
+1. Access the "Sửa Dịch Vụ" form.
+2. Leave one or more required fields empty.
+3. Attempt to submit the form.
+4. Verify that the form cannot be submitted and an error message is displayed.
+
+
+Test Case 12: Verify that the "Ma dich vu" field has a maximum length of 10 characters.
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter more than 10 characters in the "Ma dich vu" field.
+3. Verify that the field does not accept more than 10 characters.
+
+Test Case 13: Verify that the "So phong ID" field has a maximum length of 10 characters.
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter more than 10 characters in the "So phong ID" field.
+3. Verify that the field does not accept more than 10 characters.
+
+Test Case 14: Verify that the "Nuoc" field has a maximum length of 50 characters.
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter more than 50 characters in the "Nuoc" field.
+3. Verify that the field does not accept more than 50 characters.
+
+Test Case 15: Verify that the "Gia tien" field has a maximum length of 10 characters.
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter more than 10 characters in the "Gia tien" field.
+3. Verify that the field does not accept more than 10 characters.
+
+Test Case 16: Verify that the "Chi so cu" field has a maximum length of 10 characters.
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter more than 10 characters in the "Chi so cu" field.
+3. Verify that the field does not accept more than 10 characters.
+
+Test Case 17: Verify that the "Chi so moi" field has a maximum length of 10 characters.
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter more than 10 characters in the "Chi so moi" field.
+3. Verify that the field does not accept more than 10 characters.
+
+Test Case 18: Verify that the "Tu ngay" field cannot be a future date.
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter a future date in the "Tu ngay" field.
+3. Verify that the field does not accept the future date.
+
+Test Case 19: Verify that the "Den ngay" field cannot be a past date.
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter a past date in the "Den ngay" field.
+3. Verify that the field does not accept the past date.
+
+Test Case 20: Verify that the "Den ngay" field cannot be earlier than the "Tu ngay" field.
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter a "Den ngay" date that is earlier than the "Tu ngay" date.
+3. Verify that the form cannot be submitted and an error message is displayed.
+
+Test Case 21: Verify that the "Chi so moi" field value is greater than the "Chi so cu" field value.
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter a "Chi so moi" value that is less than the "Chi so cu" value.
+3. Verify that the form cannot be submitted and an error message is displayed.
+
+Test Case 22: Verify that the "Gia tien" field value is a positive number.
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter a negative value in the "Gia tien" field.
+3. Verify that the form cannot be submitted and an error message is displayed.
+
+Test Case 23: Verify that the "Chi so cu" and "Chi so moi" fields can only accept integer values.
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter non-integer values in the "Chi so cu" and "Chi so moi" fields.
+3. Verify that the form cannot be submitted and an error message is displayed.
+
+Test Case 24: Verify that the form displays an error message when invalid data is entered.
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter invalid data in one or more fields.
+3. Attempt to submit the form.
+4. Verify that an appropriate error message is displayed.
+
+Test Case 25: Verify that the form displays a success message when the data is saved successfully.
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter valid data in all the required fields.
+3. Click the "Luu" button.
+4. Verify that a success message is displayed.
+
+Test Case 26: Verify that the form data is persisted and can be retrieved after a page refresh.
+1. Access the "Sửa Dịch Vụ" form.
+2. Enter valid data in all the required fields.
+3. Click the "Luu" button.
+4. Refresh the page.
+5. Verify that the form data is still present.
+
+Test Case 27: Verify that the "Sửa Dịch Vụ" form displays the correct default values for each field.
+1. Access the "Sửa Dịch Vụ" form.
+2. Verify that each field has the correct default value.
+
+Test Case 28: Verify that the "Xóa" button deletes the selected service.
+1. Access the "Quản Lý Dịch Vụ" page.
+2. Select a service to delete.
+3. Click the "Xóa" button.
+4. Verify that the selected service is no longer displayed in the list.
+
+Test Case 29: Verify that the "Tìm Kiếm" functionality filters the service list correctly.
+1. Access the "Quản Lý Dịch Vụ" page.
+2. Enter a search term in the "Tìm Kiếm" field.
+3. Verify that the service list is filtered to only show services that match the search term.
+
+Test Case 30: Verify that the "Phân Trang" functionality works as expected.
+1. Access the "Quản Lý Dịch Vụ" page.
+2. Verify that the service list is displayed with pagination controls.
+3. Navigate to different pages using the pagination controls.
+4. Verify that the correct set of services is displayed on each page.
+
+Test Case 31: Verify that the "Sắp Xếp" functionality sorts the service list correctly.
+1. Access the "Quản Lý Dịch Vụ" page.
+2. Select a sort option (e.g., sort by "Ma dich vu", "Ten dich vu", "Gia tien").
+3. Verify that the service list is sorted according to the selected option.
+
+Test Case 32: Verify that the "Xuất Excel" button exports the service list to an Excel file.
+1. Access the "Quản Lý Dịch Vụ" page.
+2. Click the "Xuất Excel" button.
+3. Verify that the Excel file is downloaded and that it contains the correct service data.
+
+Test Case 33: Verify that the "Thêm Dịch Vụ" button navigates to the "Thêm Dịch Vụ" form.
+1. Access the "Quản Lý Dịch Vụ" page.
+2. Click the "Thêm Dịch Vụ" button.
+3. Verify that the user is navigated to the "Thêm Dịch Vụ" form.
+
+Test Case 34: Verify that the "Thêm Dịch Vụ" form accepts valid data and creates a new service.
+1. Access the "Thêm Dịch Vụ" form.
+2. Enter valid data in all the required fields.
+3. Click the "Lưu" button.
+4. Verify that a new service is created and displayed in the "Quản Lý Dịch Vụ" page.
+
+Test Case 35: Verify that the "Thêm Dịch Vụ" form displays an error message when invalid data is entered.
+1. Access the "Thêm Dịch Vụ" form.
+2. Enter invalid data in one or more fields.
+3. Click the "Lưu" button.
+4. Verify that an appropriate error message is displayed.
+
+Test Case 36: Verify that the "Thêm Dịch Vụ" form data is persisted and can be retrieved after a page refresh.
+1. Access the "Thêm Dịch Vụ" form.
+2. Enter valid data in all the required fields.
+3. Click the "Lưu" button.
+4. Refresh the page.
+5. Verify that the form data is still present.
+
+Test Case 37: Verify that the "Quản Lý Dịch Vụ" page displays the correct number of services.
+1. Access the "Quản Lý Dịch Vụ" page.
+2. Verify that the total number of services displayed matches the actual number of services in the system.
+
+Test Case 38: Verify that the "Quản Lý Dịch Vụ" page displays the correct service details.
+1. Access the "Quản Lý Dịch Vụ" page.
+2. Verify that the service details (e.g., "Ma dich vu", "Ten dich vu", "Gia tien") are displayed correctly for each service.
+
+Test Case 39: Verify that the "Quản Lý Dịch Vụ" page handles the case when there are no services in the system.
+1. Access the "Quản Lý Dịch Vụ" page.
+2. Verify that an appropriate message is displayed when there are no services in the system.
+
+Test Case 40: Verify that the "Quản Lý Dịch Vụ" page handles the case when there is a large number of services.
+1. Access the "Quản Lý Dịch Vụ" page.
+2. Verify that the page loads and displays the service list correctly, even when there is a large number of services.
+
+Test Case 41: Verify that the "Quản Lý Dịch Vụ" page handles the case when there is a network error or server downtime.
+1. Simulate a network error or server downtime.
+2. Access the "Quản Lý Dịch Vụ" page.
+3. Verify that an appropriate error message is displayed, and the user is informed about the issue.
+
+Test Case 42: Verify that the "Quản Lý Dịch Vụ" page handles the case when the user has limited permissions.
+1. Log in as a user with limited permissions.
+2. Access the "Quản Lý Dịch Vụ" page.
+3. Verify that the user is only able to perform the actions they are authorized to perform.
+
+
+
+---Add--
+1. Check the "Ma Dich Vu" field:
+ - Fill in the numeric value in the field
+ - Confirm that the field only accepts numeric input
+ - Confirm that the field has a maximum length of 2 characters
+
+2. Check the "So Phong ID" field:
+ - Open the drop-down list
+ - Confirm that the list contains valid choices
+
+3. Check the "Name" field:
+ - Fill in alphanumeric values ​​in the field
+ - Confirm that the field accepts alphanumeric input
+ - Confirm that the field has a maximum length of 50 characters
+
+4. Check the "Gia Tien" field:
+ - Fill in the numeric value in the field
+ - Confirm that the field only accepts numeric input
+ - Confirm that the field has a maximum length of 10 characters
+
+5. Check the "Practice Now" field:
+ - Click on the field to open the date picker
+ - Confirm that the date picker works properly
+
+6. Check the "Den Immediately" field:
+ - Click on the field to open the date picker
+ - Confirm that the date picker works properly
+
+7. Check the "Currently spent" field:
+ - Fill in the alphanumeric value in the field
+ - Confirm that the field accepts alphanumeric input
+ - Confirm that the field has a maximum length of 50 characters
+
+8. Check the "New expenses" field:
+ - Fill in the alphanumeric value in the field
+ - Confirm that the field accepts alphanumeric input
+ - Confirm that the field has a maximum length of 50 characters
+
+9. Check required fields:
+ - Leave required fields blank
+ - Confirm that fields are marked as required
+ - Confirm that the form cannot be submitted when there are required fields left blank
+
+10. Check the "Add" button:
+ - Fill out all information in the form
+ - Click the "Add" button
+ - Confirm that form data is saved to the system
+
+11. Check the "Back" button:
+ - Click the "Back" button
+ - Confirm that the user is redirected to the previous page
+
+12. Check form data validation:
+ - Enter invalid data in the fields
+ - Confirm that the system displays the corresponding error message
+
+13. Check that the "Ma Dich Vu" field does not allow the first zero:
+ - Enter the value 01 into the field
+ - Confirm that the system does not allow this value
+
+14. Check the "So Phong ID" list sorted in ascending order:
+ - Open the drop-down list
+ - Confirm that the selections are sorted in ascending order
+
+15. Check that the "Gia Tien" field only accepts numbers:
+ - Enter the letter value in the field
+ - Confirm that the system does not accept this value
+
+16. Check for date fields that do not allow future date selection:
+ - Select a future date in the "Tu Ngan" and "Den Phao" fields
+ - Confirm that the system does not allow future date selection
+
+17. Check that the fields "Chi so cu" and "Chi so new" do not allow leading/trailing spaces:
+ - Enter values ​​with leading/trailing spaces into the fields
+ - Confirm that the system does not accept this value
+
+18. Check form data is saved correctly and can be retrieved again:
+ - Fill out all information in the form
+ - Click the "Add" button
+ - Retrieve saved form data
+ - Confirm that data is saved correctly
+
+19. Check the "Add" button is disabled until all required fields are filled in:
+ - Leave required fields blank
+ - Confirm that the "Add" button is disabled
+ - Fill out all information in the form
+ - Confirm that the "Add" button is enabled
+
+20. Check the form data is displayed in the correct format on the confirmation page:
+ - Fill out all information in the form
+ - Click the "Add" button
+ - Verify that form data is displayed in the correct format
+
+21. Form checks can be submitted using the keyboard (by pressing the Enter key):
+ - Fill out all information in the form
+ - Press the Enter key
+ - Confirm that the form was submitted successfully
+
+22. Check real-time form data validation:
+ - Enter data into each field
+ - Confirm that the system displays an error message immediately if the data
+
+---List---
+
+1. Verify that the room with ID 1001 has the following details:
+   - Service: Nước
+   - Price: 11000
+   - Check-in date: 2024-01-01
+   - Check-out date: 2024-01-31
+   - Number of guests: 0
+   - Number of days: 5
+   - Status: Sửa Xóa
+
+2. Verify that the room with ID 1001 has the following details:
+   - Service: Điện
+   - Price: 2500
+   - Check-in date: 2024-01-01
+   - Check-out date: 2024-01-31
+   - Number of guests: 0
+   - Number of days: 175
+   - Status: Sửa Xóa
+
+3. Verify that the room with ID 1001 has the following details:
+   - Service: Wifi
+   - Price: 50000
+   - Check-in date: 2024-01-01
+   - Check-out date: 2024-01-31
+   - Number of guests: 0
+   - Number of days: 0
+   - Status: Sửa Xóa
+
+4. Verify that the room with ID 1001 has the following details:
+   - Service: Rác
+   - Price: 15000
+   - Check-in date: 2024-01-01
+   - Check-out date: 2024-01-31
+   - Number of guests: 0
+   - Number of days: 0
+   - Status: Sửa Xóa
+
+5. Verify that the room with ID 1002 has the following details:
+   - Service: Nước
+   - Price: 11000
+   - Check-in date: 2024-01-01
+   - Check-out date: 2024-01-31
+   - Number of guests: 0
+   - Number of days: 6
+   - Status: Sửa Xóa
+
+6. Verify that the room with ID 1002 has the following details:
+   - Service: Điện
+   - Price: 2500
+   - Check-in date: 2024-01-01
+   - Check-out date: 2024-01-31
+   - Number of guests: 0
+   - Number of days: 165
+   - Status: Sửa Xóa
+
+7. Verify that the room with ID 1002 has the following details:
+   - Service: Wifi
+   - Price: 50000
+   - Check-in date: 2024-01-01
+   - Check-out date: 2024-01-31
+   - Number of guests: 0
+   - Number of days: 0
+   - Status: Sửa Xóa
+
+8. Verify that the room with ID 1002 has the following details:
+   - Service: Rác
+   - Price: 15000
+   - Check-in date: 2024-01-01
+   - Check-out date: 2024-01-31
+   - Number of guests: 0
+   - Number of days: 0
+   - Status: Sửa Xóa
+
+9. Verify that the room with ID 1004 has the following details:
+   - Service: Nước
+   - Price: 11000
+   - Check-in date: 2024-01-01
+   - Check-out date: 2024-01-31
+   - Number of guests: 0
+   - Number of days: 4
+   - Status: Sửa Xóa
+
+10. Verify that the room with ID 1004 has the following details:
+    - Service: Điện
+    - Price: 2500
+    - Check-in date: 2024-01-01
+    - Check-out date: 2024-01-31
+    - Number of guests: 0
+    - Number of days: 164
+    - Status: Sửa Xóa
+
+11. Verify that the room with ID 1004 has the following details:
+    - Service: Wifi
+    - Price: 50000
+    - Check-in date: 2024-01-01
+    - Check-out date: 2024-01-31
+    - Number of guests: 0
+    - Number of days: 0
+    - Status: Sửa Xóa
+
+12. Verify that the room with ID 1004 has the following details:
+    - Service: Rác
+    - Price: 15000
+    - Check-in date: 2024-01-01
+    - Check-out date: 2024-01-31
+    - Number of guests: 0
+    - Number of days: 0
+    - Status: Sửa Xóa
+
+13. Verify that the room with ID 1009 has the following details:
+    - Service: Nước
+    - Price: 11000
+    - Check-in date: 2024-01-01
+    - Check-out date: 2024-01-31
+    - Number of guests: 0
+    - Number of days: 5
+    - Status: Sửa Xóa
+
+14. Verify that the room with ID 1009 has the following details:
+    - Service: Điện
+    - Price: 2500
+    - Check-in date: 2024-01-01
+    - Check-out date: 2024-01-31
+    - Number of guests: 0
+    - Number of days: 164
+    - Status: Sửa Xóa
+
+15. Verify that the room with ID 1009 has the following details:
+    - Service: Wifi
+    - Price: 50000
+    - Check-in date: 2024-01-01
+    - Check-out date: 2024-01-31
+    - Number of guests: 0
+    - Number of days: 0
+    - Status: Sửa Xóa
+
+16. Verify that the room with ID 1009 has the following details:
+    - Service: Rác
+    - Price: 15000
+    - Check-in date: 2024-01-01
+    - Check-out date: 2024-01-31
+    - Number of guests: 0
+    - Number of days: 0
+    - Status: Sửa Xóa
+
+17. Verify that the room with ID 1002 has the following details:
+    - Service: Nước
+    - Price: 11000
+    - Check-in date: 2024-01-01
+    - Check-out date: 2024-01-31
+    - Number of guests: 0
+    - Number of days: 6
+    - Status: Sửa Xóa
+
+18. Verify that the room with ID 1002 has the following details:
+    - Service: Điện
+    - Price: 2500
+    - Check-in date: 2024-01-01
+    - Check-out date: 2024-01-31
+    - Number of guests: 0
+    - Number of days: 165
+    - Status: Sửa Xóa
+
+19. Verify that the room with ID 1002 has the following details:
+    - Service: Wifi
+    - Price: 50000
+    - Check-in date: 2024-01-01
+    - Check-out date: 2024-01-31
+    - Number of guests: 0
+    - Number of days: 0
+    - Status: Sửa Xóa
+
+20. Verify that the room with ID 1002 has the following details:
+    - Service: Rác
+    - Price: 15000
+    - Check-in date: 2024-01-01
+    - Check-out date: 2024-01-31
+    - Number of guests: 0
+    - Number of days: 0
+    - Status: Sửa Xóa
+
+21. Verify that the room with ID 1004 has the following details:
+    - Service: Nước
+    - Price: 11000
+    - Check-in date: 2024-01-01
+    - Check-out date: 2024-01-31
+    - Number of guests: 0
+    - Number of days: 4
+    - Status: Sửa Xóa
+
+22. Verify that the room with ID 1004 has the following details:
+    - Service: Điện
+    - Price: 2500
+    - Check-in date: 2024-01-01
+    - Check-out date: 2024-01-31
+    - Number of guests: 0
+    - Number of days: 164
+    - Status: Sửa Xóa
+
+23. Verify that the room with ID 1004 has the following details:
+    - Service: Wifi
+    - Price: 50000
+    - Check-in date: 2024-01-01
+    - Check-out date: 2024-01-31
+    - Number of guests: 0
+    - Number of days: 0
+    - Status: Sửa Xóa
+
+24. Verify that the room with ID 1004 has the following details:
+    - Service: Rác
+    - Price: 15000
+    - Check-in date: 2024-01-01
+    - Check-out date: 2024-01-31
+    - Number of guests: 0
+    - Number of days: 0
+    - Status: Sửa Xóa
+
+25. Verify that the room with ID 1009 has the following details:
+    - Service: Nước
+    - Price: 11000
+    - Check-in date: 2024-01-01
+    - Check-out date: 2024-01-31
+    - Number of guests: 0
+    - Number of days: 5
+    - Status: Sửa Xóa
+
+26. Verify that the room with ID 1009 has the following details:
+    - Service: Điện
+    - Price: 2500
+    - Check-in date: 2024-01-01
+    - Check-out date: 2024-01-31
+    - Number of guests: 0
+    - Number of days: 164
+    - Status: Sửa Xóa
+
+27. Verify that the room with ID 1009 has the following details:
+    - Service: Wifi
+    - Price: 50000
+    - Check-in date: 2024-01-01
+    - Check-out date: 2024-01-31
+    - Number of guests: 0
+    - Number of days: 0
+    - Status: Sửa Xóa
+
+28. Verify that the room with ID 1009 has the following details:
+    - Service: Rác
+    - Price: 15000
+    - Check-in date: 2024-01-01
+    - Check-out date: 2024-01-31
+    - Number of guests: 0
+    - Number of days: 0
+    - Status: Sửa Xóa
+
+29. Verify that the room with ID 1002 has the following details:
+    - Service: Nước
+    - Price: 11000
+    - Check-in date: 2024-01-01
+    - Check-out date: 2024-01-31
+    - Number of guests: 0
+    - Number of days: 6
+    - Status: Sửa Xóa
+
+30. Verify that the room with ID 1002 has the following details:
+    - Service: Điện
+    - Price: 2500
+    - Check-in date: 2024-01-01
+    - Check-out date: 2024-01-31
+    - Number of guests: 0
+    - Number of days: 165
+    - Status: Sửa Xóa
+

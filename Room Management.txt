@@ -1,0 +1,795 @@
+---List room----
+
+Test Case 1: Room Search Functionality
+Description:
+
+Verify the functionality of searching for a room by room number entered into the search box.
+Steps to execute:
+
+Enter a valid room number into the search box (e.g., "1").
+Click the "Search" button.
+Verify that the displayed result contains information about the searched room.
+Expected Result:
+
+The room information with the entered room number should be displayed accurately.
+
+Test Case 2: Area Filter Functionality
+Description:
+
+Verify the functionality of filtering the room list by area.
+Steps to execute:
+
+Click on the "AREA" button.
+Select a specific area from the dropdown list.
+Verify the displayed room list.
+Expected Result:
+
+The displayed room list should be filtered according to the selected area.
+
+Test Case 3: Room Type Filter Functionality
+Description:
+
+Verify the functionality of filtering the room list by room type.
+Steps to execute:
+
+Click on the "ROOM TYPE" button.
+Select a specific room type from the dropdown list.
+Verify the displayed room list.
+Expected Result:
+
+The displayed room list should be filtered according to the selected room type.
+
+Test Case 4: Price Filter Functionality
+Description:
+
+Verify the functionality of filtering the room list by price range.
+Steps to execute:
+
+Click on the "PRICE" button.
+Select a specific price range from the dropdown list.
+Verify the displayed room list.
+Expected Result:
+
+The displayed room list should be filtered according to the selected price range.
+
+Test Case 5: Status Filter Functionality
+Description:
+
+Verify the functionality of filtering the room list by status.
+Steps to execute:
+
+Click on the "STATUS" button.
+Select a specific status from the dropdown list (e.g., "Occupied", "Vacant").
+Verify the displayed room list.
+Expected Result:
+
+The displayed room list should be filtered according to the selected status.
+
+Test Case 6: Add New Room Functionality
+Description:
+
+Verify the functionality of adding a new room to the list.
+Steps to execute:
+
+Click on the "Add" button.
+Enter necessary information for the new room (room number, room type, price, status, facilities).
+Click "Save" to add the new room.
+Verify the displayed room list.
+Expected Result:
+
+The new room should be displayed accurately in the room list.
+
+Test Case 7: Room Detail Display Functionality
+Description:
+
+Verify if the detailed information of each room is displayed correctly when clicking on a specific room.
+Steps to execute:
+
+Click on a specific room in the list.
+Verify the displayed detailed information (room type, room number, price, status, facilities, tenant).
+Expected Result:
+
+The detailed information of the room should be displayed accurately and completely.
+
+Test Case 8: User Interface Verification
+Description:
+
+Verify the aesthetics and compatibility of the user interface.
+Steps to execute:
+
+Open the application in different browsers (Chrome, Firefox, Safari, Edge).
+Verify the layout, colors, and other UI components.
+Expected Result:
+
+The UI should display correctly and consistently across all browsers.
+
+Test Case 9: Room List Sorting Functionality
+Description:
+
+Verify the functionality of sorting the room list by different criteria (room number, room type, price, status).
+Steps to execute:
+
+Click on the column header you want to sort by (e.g., "Room Number", "Room Type", "Price", "Status").
+Check the displayed room list after sorting.
+Expected Result:
+
+The room list should be sorted correctly according to the selected criterion (ascending or descending order).
+
+Test Case 10: Room Information Editing Functionality
+Description:
+
+Verify the functionality of editing existing room information.
+Steps to execute:
+
+Click on the room to be edited in the list.
+Click on the "Edit" button.
+Modify the necessary information (e.g., price, status, facilities).
+Click "Save" to update the information.
+Verify the room information in the list again.
+Expected Result:
+
+The room information should be accurately updated after saving.
+
+Test Case 11: Room Deletion Functionality
+Description:
+
+Verify the functionality of deleting a room from the list.
+Steps to execute:
+
+Click on the room to be deleted in the list.
+Click on the "Delete" button.
+Confirm the deletion.
+Check the room list after deletion.
+Expected Result:
+
+The room should be removed from the list and no longer displayed.
+
+Test Case 12: Room Facilities Management Functionality
+Description:
+
+Verify the functionality of managing facilities in each room.
+Steps to execute:
+
+Click on the room to manage facilities in the list.
+Click on the "Facilities" button.
+Add, edit, or delete facilities.
+Click "Save" to update the facilities information.
+Verify the facilities information in the room.
+Expected Result:
+
+The facilities information should be accurately updated after saving.
+
+Test Case 13: Tenant Management Functionality
+Description:
+
+Verify the functionality of managing tenants in each room.
+Steps to execute:
+
+Click on the room to manage tenants in the list.
+Click on the "Tenants" button.
+Add, edit, or delete tenant information.
+Click "Save" to update the tenant information.
+Verify the tenant information in the room.
+Expected Result:
+
+The tenant information should be accurately updated after saving.
+
+Test Case 14: Mobile Compatibility Testing
+Description:
+
+Verify the compatibility and display of the interface on mobile devices and tablets.
+Steps to execute:
+
+Open the application on different mobile devices (iOS, Android).
+Check the layout, colors, and other UI components.
+Expected Result:
+
+The interface should display correctly and consistently across all mobile devices.
+
+Test Case 15: Security and Privacy Testing
+Description:
+
+Verify the security and privacy of the system.
+Steps to execute:
+
+Perform basic security tests such as SQL Injection, XSS, CSRF.
+Check security measures such as user authentication, data encryption.
+Expected Result:
+
+The system should ensure security and privacy, without vulnerabilities that could be exploited.
+
+Test Case 16: Data Integrity Verification
+Description:
+
+Verify data integrity when adding, editing, and deleting room information.
+Steps to execute:
+
+Add a new room with complete information.
+Edit the information of the newly added room.
+Delete the edited room.
+Check the database to ensure there are no redundant or missing information.
+Expected Result:
+
+The data should be accurately updated with no redundant or missing information after performing add, edit, and delete operations.
+
+Test Case 17: Pagination Functionality Verification
+Description:
+
+Verify the pagination functionality of the room list.
+Steps to execute:
+
+If the room list has more rooms than displayed per page, check for pagination buttons.
+Click on pagination buttons to navigate between pages.
+Verify that the room information displayed on each page is correct and does not repeat or miss any information.
+Expected Result:
+
+Pagination buttons should function correctly, and the room list should display correctly across pages.
+
+Test Case 18: Invalid Input Error Notification
+Description:
+
+Verify the system's error notification when users input invalid data.
+Steps to execute:
+
+Click on the "Add" button to add a new room.
+Enter invalid information (e.g., leave required fields blank, input invalid characters).
+Click "Save".
+Expected Result:
+
+The system should display specific error messages and prevent saving information with invalid data.
+
+Test Case 19: Filter Reset Functionality Verification
+Description:
+
+Verify the functionality to reset filters to display the entire room list again.
+Steps to execute:
+
+Apply one or more filters (area, room type, price, status).
+Click on the reset button (if available) or deselect all filters.
+Check the displayed room list again.
+Expected Result:
+
+The entire room list should be displayed again without applying any filters.
+
+Test Case 20: Combined Search with Filters Functionality Verification
+Description:
+
+Verify the search functionality combined with filters.
+Steps to execute:
+
+Enter a room number into the search box.
+Apply one or more filters (area, room type, price, status).
+Click on the "Search" button.
+Check the displayed room list.
+Expected Result:
+
+The displayed room list should match both the searched room number and applied filters.
+
+Test Case 21: Page Refresh Functionality Verification
+Description:
+
+Verify the page refresh functionality and ensure data persistence after refresh.
+Steps to execute:
+
+Open the room management page.
+Refresh the page using F5 or the browser refresh button.
+Check the displayed data on the page.
+Expected Result:
+
+The data displayed on the page should remain intact and not be lost after refreshing the page.
+
+Test Case 22: Room List Printing Functionality Verification
+Description:
+
+Verify the room list printing functionality.
+Steps to execute:
+
+Click on the "Print" button (if available) on the interface.
+Select a printer and configure print options.
+Execute the print command.
+Expected Result:
+
+The room list should be printed correctly formatted and with complete information as displayed on the interface.
+
+Test Case 23: Room List Export Functionality Verification
+Description:
+
+Verify the functionality to export the room list to a file (e.g., Excel, CSV, PDF).
+Steps to execute:
+
+Click on the "Export" button on the interface.
+Select the file format for export (Excel, CSV, PDF).
+Execute the export command.
+Open the exported file and check the content.
+Expected Result:
+
+The exported file must contain complete and accurate information of the room list as displayed on the interface.
+
+Test Case 24: Room List Import Functionality Verification
+Description:
+
+Verify the functionality to import the room list from a file (e.g., Excel, CSV).
+Steps to execute:
+
+Click on the "Import" button on the interface.
+Select the file containing the room list to import (in Excel or CSV format).
+Execute the import command.
+Check the room list after import.
+Expected Result:
+
+The room list should be updated accurately and completely with data from the imported file.
+
+Test Case 25: User Login and Authorization Verification
+Description:
+
+Verify user login and authorization functionalities.
+Steps to execute:
+
+Log in to the system using an administrator account.
+Verify access to management functions and data (room management, add/delete/edit rooms).
+Log out and log in again using a regular user account.
+Verify access to functions and data (only view room list, no add/delete/edit permissions).
+Expected Result:
+
+Administrators should have full access to management functions.
+Regular users should only be able to view the room list without permissions to add/delete/edit rooms.
+
+Test Case 26: Notification and Reminder Functionality Verification
+Description:
+
+Verify notification and reminder functionalities for important events (e.g., rooms nearing contract expiration, rooms needing maintenance).
+Steps to execute:
+
+Identify important events requiring notification and reminders.
+Set up these events in the system.
+Log in to the system and check for displayed notifications and reminders.
+Expected Result:
+
+The system should display accurate and timely notifications and reminders for important events.
+
+Test Case 27: Summary Report Generation Functionality Verification
+Description:
+
+Verify the functionality to generate summary reports on room status, income, expenses.
+Steps to execute:
+
+Click on the "Reports" button on the interface.
+Select the type of report to generate (room status, income, expenses).
+Select the timeframe and necessary filters.
+Execute the report generation command.
+Check the displayed report or exported file.
+Expected Result:
+
+The report should contain complete and accurate information as requested.
+
+Test Case 28: System Load Capacity Verification
+Description:
+
+Verify the system's ability to handle concurrent user access under load.
+Steps to execute:
+
+Use load testing tools to simulate multiple concurrent user accesses.
+Monitor system performance (response time, CPU/RAM usage).
+Verify if the system maintains stable operation under high load.
+Expected Result:
+
+The system should maintain stable operation and acceptable response times under high load.
+
+Test Case 29: System Recovery Capability Verification
+Description:
+
+Verify the system's recovery capability after encountering a failure (e.g., power outage, server crash).
+Steps to execute:
+
+Simulate a system failure by abruptly shutting down the server or disconnecting the network.
+Restart the server or reconnect the network.
+Check if the system automatically recovers and operates normally.
+Verify the data and system state to ensure there is no data loss or corruption.
+Expected Result:
+
+The system should automatically recover and operate normally after the failure, with no data loss or corruption.
+
+Test Case 30: Data Backup and Restore Functionality Verification
+Description:
+
+Verify the system's data backup and restore functionality.
+Steps to execute:
+
+Perform a backup of the current system data.
+Make changes to the data (add, delete, edit rooms).
+Restore the data from the backup.
+Check the data and system state after restoration.
+Expected Result:
+
+The data should be restored accurately to the state at the time of backup.
+
+Test Case 31: User Support Functionality Verification
+Description:
+
+Verify the user support functionalities (e.g., user guides, FAQ, online support).
+Steps to execute:
+
+Access the user support section on the interface.
+Check user guides, frequently asked questions (FAQs), and online support functions if available.
+Submit a support request and monitor the processing.
+Expected Result:
+
+User guides and FAQs should be comprehensive and easy to understand.
+Online support functionality should work well, and support requests should be handled promptly.
+
+Test Case 32: History and Change Tracking Functionality Verification
+Description:
+
+Verify the history and change tracking functionality in the system.
+Steps to execute:
+
+Make some changes to the system (add, delete, edit rooms).
+Access the history section and track changes.
+Check the change records to ensure all changes are accurately recorded.
+Expected Result:
+
+The system should accurately record all changes and provide detailed information about the time, user, and content of each change.
+
+Test Case 33: User Interface Customization Functionality Verification
+Description:
+
+Verify the user interface customization functionality (themes, colors, layout).
+Steps to execute:
+
+Access the user interface customization section on the system.
+Make changes to themes, colors, and layout.
+Check the system interface after making changes.
+Expected Result:
+
+The system interface should reflect the user's customizations without affecting functionality.
+
+Test Case 34: Email Notification Functionality Verification
+Description:
+
+Verify the functionality to send email notifications to users.
+Steps to execute:
+
+Configure email settings in the system.
+Perform actions that trigger email notifications (e.g., add new room, update room information).
+Check the received email to ensure the notification content and timing are correct.
+Expected Result:
+
+Email notifications should be sent accurately and contain complete information as configured.
+
+Test Case 35: Real-Time Detailed Reporting Functionality Verification
+Description:
+
+Verify the system's real-time detailed reporting functionality.
+Steps to execute:
+
+Perform actions on the system (e.g., add, delete, edit rooms).
+Access the real-time detailed reporting section.
+Check the reports to ensure that the displayed data is updated immediately after each action.
+Expected Result:
+
+The report should display accurate data and be updated immediately after each change on the system.
+
+Test Case 36: Access Management Functionality Verification
+Description:
+
+Verify the access management functionality for different user roles.
+Steps to execute:
+
+Create accounts with different roles (admin, staff, customer).
+Verify the access rights for each role (view, add, delete, edit rooms).
+Ensure that each role can only access and perform permitted functions.
+Expected Result:
+
+The system should accurately assign permissions for each role and prevent unauthorized access to restricted functions.
+
+Test Case 37: Cross-Browser Compatibility Verification
+Description:
+
+Verify the system's compatibility across multiple web browsers.
+Steps to execute:
+
+Open the system on different web browsers (Chrome, Firefox, Safari, Edge).
+Perform typical operations (add, delete, edit rooms, view reports).
+Check if the system operates stably and the interface displays correctly on each browser.
+Expected Result:
+
+The system should operate stably and display correctly on all popular web browsers.
+
+Test Case 38: Cross-Device Compatibility Verification
+Description:
+
+Verify the system's compatibility across multiple types of devices (desktops, laptops, tablets, mobile phones).
+Steps to execute:
+
+Open the system on different types of devices.
+Perform typical operations (add, delete, edit rooms, view reports).
+Check if the system operates stably and the interface displays correctly on each device.
+Expected Result:
+
+The system should operate stably and display correctly on all types of devices.
+
+Test Case 39: Automatic Reminder Functionality Verification
+Description:
+
+Verify the automatic reminder functionality for important events (e.g., contract expiration, room maintenance).
+Steps to execute:
+
+Set up automatic reminder events in the system.
+Wait for the system to send reminders at the scheduled times.
+Check for the appearance of reminder notifications.
+Expected Result:
+
+The system should automatically send accurate and timely reminders for the configured events.
+
+Test Case 40: Transaction History Management Functionality Verification
+Description:
+
+Verify the transaction history management functionality for users.
+Steps to execute:
+
+Perform some transactions on the system (payments, room bookings, cancellations).
+Access the user's transaction history section.
+Check the transaction records to ensure accurate logging of all transactions.
+Expected Result:
+
+The system should accurately log every transaction and provide detailed information about each transaction.
+
+Test Case 41: Multilingual Support Functionality Verification
+Description:
+
+Verify the system's multilingual support functionality.
+Steps to execute:
+
+Switch the system interface language to different languages (e.g., English, Vietnamese).
+Check interface elements (menu, buttons, notifications, forms) to ensure they display correctly in the selected language.
+Perform typical operations (add, delete, edit rooms, view reports) and verify the displayed content in the chosen language.
+Expected Result:
+
+The system interface and content should accurately change according to the selected language, ensuring consistency and ease of understanding.
+
+Test Case 42: Data Synchronization Functionality Verification
+Description:
+
+Verify the data synchronization functionality across different devices and user accounts.
+Steps to execute:
+
+Make changes to data (add, delete, edit rooms) on one device or account.
+Log in to the system from another device or account.
+Check if the changes have been synchronized and updated accurately across all devices and accounts.
+Expected Result:
+
+Data should be synchronized promptly and accurately across different devices and user accounts.
+
+Test Case 43: Search and Filter Data Functionality Verification
+Description:
+
+Verify the system's ability to search and filter data.
+Steps to execute:
+
+Enter various keywords into the search bar on the interface.
+Use filters to sort data based on different criteria (e.g., room type, status, price).
+Check the search and filter results to ensure they are accurate and match the keywords and filters used.
+Expected Result:
+
+The system should return accurate and fast search and filter results.
+
+Test Case 44: User Account Creation and Management Functionality Verification
+Description:
+
+Verify the functionality to create and manage user accounts (registration, activation, lock/unlock accounts).
+Steps to execute:
+
+Register a new account on the system.
+Activate the account through email or other verification methods.
+Attempt to lock and unlock the account from the admin interface.
+Check the access rights and account status after locking/unlocking.
+Expected Result:
+
+The account should be successfully created and activated, and the system should allow accurate account locking/unlocking.
+
+Test Case 45: Security and Two-Factor Authentication (2FA) Functionality Verification
+Description:
+
+Verify the security and two-factor authentication (2FA) functionality on the system.
+Steps to execute:
+
+Enable 2FA for a user account.
+Log out and log back into the system.
+Complete the two-factor authentication process (enter OTP code from authentication app or SMS).
+Check if the user can successfully log in after completing two-factor authentication.
+Expected Result:
+
+The system should require two-factor authentication and only allow login upon entering the correct OTP code.
+Test Case 46: External Systems Integration Functionality Verification
+Description:
+
+Verify the system's functionality to integrate with external systems (e.g., payment systems, customer management systems).
+Steps to execute:
+
+Configure integration with an external system through the admin interface.
+Perform necessary transactions or operations to trigger the integration (e.g., online payment, customer information update).
+Check the data transmitted between systems to ensure accuracy and synchronization.
+Expected Result:
+
+The system should successfully integrate, and data should be accurately transmitted between the systems.
+
+Test Case 47: Promotion and Discount Management Functionality Verification
+Description:
+
+Verify the promotion and discount management functionality on the system.
+Steps to execute:
+
+Create promotion and discount programs on the system (e.g., discounts, additional service offers).
+Apply these promotions and discounts to specific rooms or services.
+Book rooms or use services to verify that the promotions and discounts are correctly applied.
+Expected Result:
+
+Promotions and discounts should be created and applied correctly as configured.
+
+Test Case 48: Customer Feedback and Complaint Handling Functionality Verification
+Description:
+
+Verify the functionality to handle customer feedback and complaints.
+Steps to execute:
+
+Submit feedback or a complaint from a customer account.
+Access the admin interface to view and handle this feedback or complaint.
+Respond to the feedback or resolve the complaint, and check if the customer receives the response.
+Expected Result:
+
+The system should allow efficient and accurate sending, receiving, and handling of customer feedback or complaints.
+
+Test Case 49: Room Maintenance and Service Functionality Verification
+Description:
+
+Verify the room maintenance and service management functionality on the system.
+Steps to execute:
+
+Create maintenance and service schedules for rooms.
+Record completed maintenance and service tasks.
+Check the room status and update after completing maintenance and service.
+Expected Result:
+
+The system should allow accurate creation and management of maintenance and service schedules, and update room status correctly after tasks are completed.
+
+Test Case 50: Comprehensive Reporting Functionality Verification
+Description:
+
+Verify the comprehensive reporting functionality on the system (e.g., revenue, room occupancy).
+Steps to execute:
+
+Perform various transactions and activities on the system.
+Access the comprehensive reporting section from the admin interface.
+Check the reports to ensure they accurately reflect the activities and transactions performed.
+Expected Result:
+
+Comprehensive reports should be accurate and provide necessary information for management and decision-making.
+
+Test Case 51: Automatic System Update Functionality Verification
+Description:
+
+Verify the functionality of automatic software updates on the system.
+Steps to execute:
+
+Configure the system to automatically check and update to new versions.
+Simulate the release of a new version of the software.
+Check if the system automatically detects and updates to the new version.
+Expected Result:
+
+The system should automatically detect and smoothly update to the new version without disrupting operations.
+
+
+----- View a room-----
+Test Case 1: Verify Room Information
+
+Verify that the "Phòng ID" field displays the correct room ID (1001 and 2011)
+Verify that the "Số Phòng" field displays the correct room number (1 and 1)
+Verify that the "Khu ID" field displays the correct room block ID (1 and 2)
+Verify that the "Loại phòng" field displays the correct room type ("Đơn")
+Verify that the "Phòng" field displays the correct room details ("Có khách thuê" and "Trống")
+Verify that the "Ghi Chú" field displays the correct room notes ("Tốt")
+Verify that the "Giá" field displays the correct room price (1500000)
+
+Test Case 2: Verify "Sửa" Button
+
+Verify that the "Sửa" button is displayed for the first room
+Verify that clicking the "Sửa" button navigates to the correct edit screen for the first room
+Test Case 3: Verify "Xóa" Button
+
+Verify that the "Xóa" button is displayed for the second room
+Verify that clicking the "Xóa" button deletes the second room from the list
+
+Test Case 4: Verify "Trang chủ" Button
+
+Verify that the "Trang chủ" button is displayed for both rooms
+Verify that clicking the "Trang chủ" button navigates to the correct home screen
+
+Test Case 5: Verify "Sửa" Button Visibility
+Verify that the "Sửa" button is not displayed for the second room
+
+Test Case 6: Verify "Xóa" Button Visibility
+
+Verify that the "Xóa" button is not displayed for the first room
+
+Test Case 7: Verify Room Sorting
+
+Verify that the rooms are sorted in ascending order by room ID (1001, 2011)
+Verify that the rooms are grouped by room block ID (Khu ID 1 and Khu ID 2)
+Test Case 8: Verify Room Search
+
+Verify that the user can search for a specific room by room ID, room number, or room block ID
+Verify that the search results display the correct room details
+Test Case 9: Verify Room Filtering
+
+Verify that the user can filter rooms by room status (Có khách thuê, Trống)
+Verify that the filtered results display the correct room details
+Test Case 10: Verify Room Creation
+
+Verify that the user can navigate to a room creation screen
+Verify that the user can input all required room details
+Verify that the new room is correctly added to the room list
+Test Case 11: Verify Room Editing
+
+Verify that the user can navigate to the room edit screen for an existing room
+Verify that the user can update the room details
+Verify that the updated room details are correctly displayed in the room list
+Test Case 12: Verify Room Deletion
+
+Verify that the user can delete an existing room from the room list
+Verify that the deleted room is no longer displayed in the room list
+Test Case 13: Verify Responsive Design
+
+Verify that the screen layout and elements are properly displayed on different screen sizes and devices
+Verify that the user can interact with all screen elements on different screen sizes and devices
+
+
+---Add room ---
+
+Test Case 1: Verify the default values for each field
+
+Verify that the "Mã Phòng" field is set to "2021" by default
+Verify that the "Số Phòng" field is empty by default
+Verify that the "Mã Khu" field is set to "1" by default
+Verify that the "Loại Phòng" field is set to "Đôi" by default
+Verify that the "Phòng" field is set to "Trong" by default
+Verify that the "Ghi Chú" field is set to "Bảo trì" by default
+Test Case 2: Verify field validation
+
+Attempt to submit the form with one or more empty required fields and verify that the form does not submit and an error message is displayed
+Attempt to enter invalid data in one or more fields (e.g. non-numeric characters in a numeric field) and verify that the form does not submit and an error message is displayed
+Test Case 3: Verify successful form submission
+
+Fill out all fields with valid data
+Click the "Thêm" button and verify that the form is successfully submitted
+Verify that the form is reset to the default values after submission
+Test Case 4: Verify the layout and responsiveness of the form
+
+Resize the browser window to different sizes and verify that the form layout and elements adjust accordingly
+Verify that the form is accessible and easy to use on both desktop and mobile devices
+Test Case 5: Verify the behavior of the "Thêm" button
+
+Click the "Thêm" button and verify that the form is successfully submitted
+Verify that the "Thêm" button is disabled or hidden after the form is submitted to prevent multiple submissions
+
+Test Case 6: Verify the behavior of the dropdown fields
+
+Click on the "Mã Khu" dropdown and verify that all available options are displayed
+Select different options from the "Mã Khu" dropdown and verify that the corresponding values are displayed correctly
+Repeat the same process for the "Loại Phòng" and "Ghi Chú" dropdowns
+Test Case 7: Verify the character limits for each field
+
+Attempt to enter an excessive number of characters in each field and verify that the form does not submit and an error message is displayed
+Verify that the maximum allowed characters for each field is displayed or communicated to the user
+Test Case 8: Verify the error handling and error messages
+
+Intentionally enter invalid data in one or more fields and verify that clear and helpful error messages are displayed
+Verify that the error messages provide the user with the necessary information to correct the issue
+Test Case 9: Verify the data persistence
+
+Fill out the form and submit it
+Reload the page and verify that the form is reset to the default values
+Verify that the submitted data is stored and can be retrieved and displayed correctly
+Test Case 10: Verify the accessibility features
+
+Use a screen reader or other assistive technology to interact with the form and verify that all elements are properly labeled and can be navigated using keyboard commands
+Verify that the form can be used by users with various disabilities, such as visual, motor, or cognitive impairments
